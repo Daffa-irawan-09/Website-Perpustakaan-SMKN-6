@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Kontak.css">
+</head>
+<body>
+    <header>
+        <h1>Perpustakaan SMKN 6</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Utama</a></li>
+            <li><a href="Profil.html">Profil</a></li>
+            <li><a href="Galeri.html">Galeri</a></li>
+            <li><a href="Kontak.html">Kontak</a></li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Formulir Kontak</h2>
+        <form id="contactForm">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea>
+    
+            <button type="submit">Kirim</button>
+        </form>
+    
+        <div class="message" id="message"></div>
+    </div>
+</body>
+</html>

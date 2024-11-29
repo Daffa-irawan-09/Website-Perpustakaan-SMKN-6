@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+header {
+    background: linear-gradient(to right, #00a6a6, #0070b8);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    margin: 0;
+}
+nav {
+    background: linear-gradient(to right, #00a6a6, #00a6a6);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #0070b8, #00a6a6);
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image .poto {
+    width: 500Spx;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+div img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
